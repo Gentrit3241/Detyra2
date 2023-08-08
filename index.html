@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <script defer src="main.js"></script>
+        <title>Calculating Bill</title>
+    </head>
+<body>
+    <header>
+        <h1>Splitter</h1>
+    </header>
+    <div class="maindiv">
+        <div class="input">
+            <form>
+                <label for="bill">Bill</label>
+                <input type="number" placeholder="$" class="billInput" maxlength="7" required>
+
+                <label for="tip" class="selectTip">Select Tip</label>
+                <div class="tipDiv">
+                    <div class="tip five">5%</div>
+                    <div class="tip ten">10%</div>
+                    <div class="tip fifteen">15%</div>
+                    <div class="tip twentyfive">25%</div>
+                    <div class="tip fifty">50%</div>
+                    <div class="tip custom"><input type="text" class="customInput" placeholder="Custom"></div>
+                </div>
+
+                <label for="peopleNum">Number of People</label>
+                <input type="text" placeholder="👥" class="peopleNum">
+            </form>
+        </div>
+        <div class="output">
+            <div class="tipAmountDiv">
+                <div>
+                    <h3>Tip Amount</h3>
+                    <p>/ person</p>
+                </div>
+                <h1 class="tipAmount">$0.00</h1>
+            </div>
+            <div class="totalAmountDiv">
+                <div>
+                    <h3>Total</h3>
+                    <p>/ person</p>
+                </div>
+                <h1 class="totalAmount">$0.00</h1>
+            </div>
+            <button><h3>RESET</h3></button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,171 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+header {
+    text-decoration: underline;
+    color: #3d5a6c;
+}
+body {
+    background-color: #deedf8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+.maindiv {
+    background-color: white;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.input {
+    position: relative;
+    height: auto;
+    width: auto;
+    padding: 0px;
+}
+label {
+    display: block;
+    font-weight: bolder;
+    font-size: 1.3em;
+    color: #3d5a6c;
+    padding-bottom: 5px;
+}
+.tipDiv {
+    padding: 0px 0px 40px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.tip {
+    background-color: #3d5a6c;
+    width: 60px;
+    border-radius: 3px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding: 5px 15px 5px 15px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    margin-right: 0px;
+    font-size: 1.2em;
+    cursor: pointer;
+} 
+.tip:active {
+    text-decoration: underline;
+    background-color: #4b7086;
+}
+input {
+    width: 285px;
+    border: none;
+    background-color: #eef6fc;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.1em;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.custom {
+    background-color: #eef6fc;
+    padding: 0px;
+    margin-left: 15px;
+}
+.customInput {
+    width: 100%;
+    padding: 0px;
+    height: 22px;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 0px;
+    width: 75px;
+    height: 22px;
+    border: 0px solid;
+    padding: 5px 7px;
+}
+.customInput:focus {
+    border: 0px solid;
+}
+.selectTip {
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.output {
+    position: relative;
+    background-color: #3d5a6c;
+    height: auto;
+    width: 300px;
+    border-radius: 15px;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    margin-left: 30px;
+}
+.tipAmountDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+.totalAmountDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.output h3 {
+    padding: 0px;
+    margin: 0px;
+}
+.output p {
+    padding: 0px;
+    margin: 0px;
+    color: #b4d8ee;
+}
+
+button {
+    width: 100%;
+    border-radius: 10px;
+    background-color: #eef6fc;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:active {
+    text-decoration: underline;
+    background-color: #ceebff;
+}
+
+
+
+
+
+
+
